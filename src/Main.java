@@ -25,16 +25,16 @@ public class Main {
 				tempBoss.attack(party);
 				tempBoss.specialAbility(party);
 
-			} else {
+				} else {
 
-				if (party[i] instanceof Mage tempMage) {
+					if (party[i] instanceof Mage tempMage) {
 
 					tempMage.specialAbility();
 
-				} else if (party[i] instanceof Boss tempBoss) {
+					} else if (party[i] instanceof Boss tempBoss) {
 
-					tempBoss.specialAbility(party);
-				} else if (party[i] != null) {
+						tempBoss.specialAbility(party);
+					} else if (party[i] != null) {
 
 					Character tempCharacter = (Character) party[i];
 
@@ -43,7 +43,7 @@ public class Main {
 			}
 
 
-			}
+		   }
 
 		}
 	}

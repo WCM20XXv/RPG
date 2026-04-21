@@ -17,9 +17,9 @@ int strength;
 		
 	}
 
-	public void takeDamage(int amount){
 
-	}
 
 }
+
+
 
