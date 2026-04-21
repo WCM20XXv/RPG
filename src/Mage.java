@@ -1,5 +1,5 @@
 
-public class Mage extends Character {
+public class Mage extends Character implements Playable {
 
 	int mana;
 	
@@ -41,9 +41,8 @@ public class Mage extends Character {
 		
 	}
 
-	public void takeDamage() {
-		health -= 5;
-		System.out.println(name + "has taken damage!");
+	public void takeDamage(int amount) {
+
 	}
 
 }

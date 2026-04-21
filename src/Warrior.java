@@ -1,5 +1,5 @@
 
-public class Warrior extends Character {
+public class Warrior extends Character implements Playable  {
 int strength;
 	public Warrior(String characterName, int characterLevel, int strength, int health ) {
 		super(characterName, characterLevel, health);
@@ -17,9 +17,9 @@ int strength;
 		
 	}
 
-	public void takeDamage() {
-		health =- 5;
-		System.out.println(name + "has taken damage!");
+	public void takeDamage(int amount){
+
 	}
+
 }
 

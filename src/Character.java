@@ -27,11 +27,11 @@ public class Character {
 	
 	public void takeDamage(int amount) {
 		this.health -= amount;
-		System.out.println(name + " takes " + amount + "damage (Health: " + health + ")");
+		System.out.println(name + " takes " + amount + "damage (Health remaining: " + health + ")");
 		
 		if (this.health <= 0) {
 			this.health = 0;
-			System.out.println(name + "has been defeated");
+			System.out.println(name + " has been defeated");
 		}
 	}
 }
