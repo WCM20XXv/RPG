@@ -41,8 +41,8 @@ public class Mage extends Character implements Playable {
 		
 	}
 
-	public void takeDamage(int amount) {
 
-	}
 
 }
+
+
